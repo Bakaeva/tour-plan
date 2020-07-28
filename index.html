@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -110,8 +111,29 @@
           <!-- /.hotel-info-rating -->
         </div>
         <!-- /.hotel-info -->
+        <div class="hotel-grid">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/slide.jpg" alt="slide" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide.jpg" alt="slide" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide.jpg" alt="slide" />
+              </div>
+            </div>
+            <button class="slide-button slide-button-prev"></button>
+            <button class="slide-button slide-button-next"></button>
+          </div>
+          <!-- /.swiper-container -->
+        </div>
+        <!-- /.hotel-grid -->
       </div>
       <!-- /.container -->
     </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
