@@ -836,7 +836,7 @@ template {
 .map {
   width: 347px;
   height: 213px;
-  border: 1px solid red;
+  background-color: #000000;
   border-radius: 10px;
 }
 
