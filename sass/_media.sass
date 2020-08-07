@@ -5,7 +5,8 @@
   .container
     max-width: 960px
 @media (max-width: 992px)
-  .container
+  .container,
+  .newsletter-wrapper
     max-width: 700px
   .logo
     width: 132px
@@ -74,6 +75,18 @@
     margin-bottom: 20px
   .map
     width: 100%
+  .newsletter
+    padding: 76px 0 83px 0
+    &-wrapper
+      width: 92%
+      flex-direction: column
+    &__title
+      width: 100%
+      margin-bottom: 37px
+    &__subscribe
+      width: 100%
+    &-title__strong
+      margin-top: 5px
 @media (max-width: 480px)
   .logo
     width: 99px
